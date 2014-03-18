@@ -1,15 +1,24 @@
-# Get help information
+### Get help information
 
-## List help options
-C-h ?
+List help options
 
-## Start a emacs tutorial
-C-h t
+* C-h ?
 
-## Keystroke binding
-C-h k [cmd]
+
+Start a emacs tutorial
+
+* C-h t
+
+
+Keystroke binding
+
+* C-h k [cmd]
+
     C-h k C-x i
 
-## Describe function
-C-h f
+
+Describe function
+
+* C-h f
+
     C-h f find-file

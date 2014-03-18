@@ -1,0 +1,2 @@
+;;; Get emacs version
+M-x version

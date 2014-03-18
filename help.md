@@ -22,4 +22,3 @@ Describe function
 * C-h f [cmd]
 
     C-h f find-file
-        aa

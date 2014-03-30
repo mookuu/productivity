@@ -70,10 +70,11 @@ Code without codeblock quotation: &mdash
 
 Code without codeblock quotation &mdash
 
-`#!/bin/bash
+`#!/bin/bash`
 
-CUR_DIR=`pwd`
-E_DIRWRONG=85
+`CUR_DIR=`pwd``
+
+`E_DIRWRONG=85`
 # Filename
 if [ -d "${1%%.*}" ]; then
         echo "Directory exists, overwriten?"

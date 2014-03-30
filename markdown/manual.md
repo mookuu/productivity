@@ -1,5 +1,5 @@
 Manual for markdown
-
+===================
 
 #### M1: block
 
@@ -37,7 +37,7 @@ Manual for markdown
 
 * [Google](https://www.google.com)
 
-* [github](https://github.com/Takechiyocn "Title: github")
+* [github](https://github.com/Takechiyocn "Title: Github")
 
 #### M5_2: linkage-->reference
 
@@ -54,7 +54,7 @@ Manual for markdown
 
 ![Picture][p_id]
 
-[p_id]: img.jpg "Title"
+[p_id]: img.jpg "Title: Picture"
 
 #### M7: code block-->&、< and >
 
@@ -70,6 +70,21 @@ Code without codeblock quotation: &mdash
 
 Code without codeblock quotation &mdash
 
+`#!/bin/bash
+
+CUR_DIR=`pwd`
+E_DIRWRONG=85
+# Filename
+if [ -d "${1%%.*}" ]; then
+        echo "Directory exists, overwriten?"
+        echo "errno: $E_DIRWRONG" && exit "$E_DIRWRONG"
+else
+        mkdir ${1%%.*} && cp "$1" "$_" && cd "$_"
+fi
+UNPACK=$?
+echo This is a rar package.
+`
+
 #### M8: XHTML backwoard compatility
 
 If you want your page to validate under XHTML 1.0 Strict,
@@ -78,15 +93,4 @@ you've got to put paragraph tags in your blockquotes:
 <blockquote>
 <p>For example.</p>
 </blockquote>
-
-#### multi paragraph test
-* A list item.
-    With multiple paragraphs.
-
-* Another item in the list.
-
-
-* A list item.
-    With multiple paragraphs.
-* Another item in the list.
 

@@ -50,10 +50,43 @@ Manual for markdown
 
 #### M6: picture
 
-![Picture](/path/to/img.jpg "Title: Picture")
+![Picture](img.jpg "Title: Picture")
 
 ![Picture][p_id]
 
-* [p_id]: /path/to/img.jpg "Title"
+[p_id]: img.jpg "Title"
 
-#### M7: code
+#### M7: code block-->&、< and >
+
+`Code with codeblock quotation: <blink>`
+
+Code without codeblock quotation: <blink>
+
+`Code with codeblock quotation: &mdash`
+
+Code without codeblock quotation: &mdash
+
+`Code with codeblock quotation: &#8212`
+
+Code without codeblock quotation &mdash
+
+#### M8: XHTML backwoard compatility
+
+If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+<blockquote>
+<p>For example.</p>
+</blockquote>
+
+#### multi paragraph test
+* A list item.
+    With multiple paragraphs.
+
+* Another item in the list.
+
+
+* A list item.
+    With multiple paragraphs.
+* Another item in the list.
+

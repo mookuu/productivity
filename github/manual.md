@@ -1,50 +1,25 @@
-Github's manual-simple version
-==============================
+User guide for github
+=====================
 
-## Remote Setting
+### Directory
 
+* Working Directory(where you real program locates)
 
-### Create pository
+* Stage(Index): A temporary directory saves files to push
 
-* Login github and New repository
+* Repository: Directory at github.com
 
+Files flow: Working directory-->Stage-->Repository
 
-## Local Setting
+### Fundamental commands
 
-### Generate ssh key and add to github
+* git add files: add file to **Stage**
 
-1. $ssh-keygen -C 'email address' -t rsa
+* git commit: take a snapshort of __Stage__ and commit(to **History**)
 
-2. add ssh key(~/.ssh/id_rsa.pub) to github.com(setting->ssh key)
+* git reset -- files or git reset: revoke files in **Stage**
 
-3. test link to github. `ssh -v git@github.com`
+* git checkout -- files: cp files from __Stage__ to **Working
+  Directory**, overwriten local files
 
-### Install git
-
-* $sudo apt-get install git
-
-### Git user setting
-
-1. $git config --global user.name "name"
-
-2. $git config --global user.email email
-
-### Create local workspace
-
-* mkdir repository
-
-* git init && ls -al
-
-### Add remote repository
-
-* $git remote add origin git@github.com:takechiyocn/apue.git
-
-* git remote
-
-### Add file(s), commit and push
-
-* $git add file(s)
-
-* $git commit -m "comment"
-
-* $git push origin master
+Enter into interactive mode wit **-p**

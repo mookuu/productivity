@@ -23,3 +23,8 @@ Files flow: Working directory-->Stage-->Repository
   Directory**, overwriten local files
 
 Enter into interactive mode wit **-p**
+
+* git commit -a: Add all files in current directory to **Stage** and
+  commit
+
+* git commit files:

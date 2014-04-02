@@ -27,4 +27,20 @@ Enter into interactive mode wit **-p**
 * git commit -a: Add all files in current directory to **Stage** and
   commit
 
-* git commit files:
+* TODO: git commit files: Last commit add snapshort of working
+  directory file's commit, files are added to **Stage**
+
+* TODO: git checkout HEAD -- files: rollback to last commit
+
+## Command Detail
+
+## Diff
+
+* git diff  --> same as `git diff Stage(Last commit) Workding_directory`
+
+* git diff --cached
+
+
+* git diff branches1 branches2 --> branch name OK
+
+* git diff parent_branch new_branch --> commit ID

@@ -36,11 +36,13 @@ Enter into interactive mode wit **-p**
 
 ## Diff
 
-* git diff  --> same as `git diff Stage(Last commit) Workding_directory`
+* git diff  --> same as `git diff Stage(commit OK) Workding_directory`
 
-* git diff --cached
-
+* git diff --cached  --> git diff Last_commit(History) Stage(uncommit)
+  commit(snapshort)->History
 
 * git diff branches1 branches2 --> branch name OK
 
 * git diff parent_branch new_branch --> commit ID
+
+* git test

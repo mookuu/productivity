@@ -39,12 +39,15 @@ Enter into interactive mode wit **-p**
 * `git diff`  --> same as `git diff Stage(commit OK) Workding_directory`
 
 * `git diff --cached`  --> same as `git diff Last_commit(History) Stage(uncommit)`
-  commit(snapshort generate commit ID)->History
-  push->use commit ID to push source to github.com
+
+    commit(snapshort generate commit ID)->History
+
+    push->use commit ID to push source to github.com
 
 * `git diff HEAD`  --> same as `git diff Last_commit(History) Working_directory`
 
-* `git diff parent_branch new_branch` --> commit ID
-  `git diff branches1 branches2` --> branch name OK
+* `git diff parent_branch new_branch` --> commit ID or branch name OK
 
 * `git diff branch_name`  --> same as `git diff branch_name working_directory`
+
+### Commit

@@ -17,7 +17,7 @@ Files flow: Working directory-->Stage-->Repository
 
 * git commit: take a snapshort of __Stage__ and commit(to **History**)
 
-* git reset -- files or git reset: revoke files in **Stage**
+* git reset -- files or git reset: revoke (all)files in **Stage**
 
 * git checkout -- files: cp files from __Stage__ to **Working
   Directory**, overwriten local files

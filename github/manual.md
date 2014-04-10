@@ -15,7 +15,7 @@ Files flow: Working directory-->Stage-->Repository
 
 * git add files: add file to **Stage**
 
-* git commit: take a snapshort of __Stage__ and commit(to **History**)
+* git commit: take a snapshort of __Stage__ and commit to **History**
 
 * git reset -- files or git reset: revoke (all)files in **Stage**
 

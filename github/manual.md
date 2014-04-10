@@ -27,8 +27,8 @@ Enter into interactive mode wit **-p**
 * git commit -a: Add all files in current directory to **Stage** and
   commit
 
-* TODO: git commit files: Last commit add snapshort of working
-  directory file's commit, files are added to **Stage**
+* TODO: git commit files: Contains last commit and commit of current working
+  directory's file's snapshort, files are added to **Stage**
 
 * TODO: git checkout HEAD -- files: rollback to last commit
 

@@ -36,11 +36,11 @@ Enter into interactive mode wit **-p**
 
 ### Diff
 
-* `git diff`  --> same as `git diff Stage(commit OK) Workding_directory`
+* `git diff`  --> same as `git diff Stage(add only) Workding_directory`
 
-* `git diff --cached`  --> same as `git diff Last_commit(History) Stage(uncommit)`
+* `git diff --cached`  --> same as `git diff History(Last_commit) Stage(uncommit)`
 
-    commit(snapshort generate commit ID)->History
+    commit(use snapshort to generate commit ID)->History
 
     push->use commit ID to push source to github.com
 

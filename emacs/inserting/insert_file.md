@@ -1,3 +1,3 @@
-### Inserting file to current position 
+;;; Inserting file to current position
 
 * C-x i

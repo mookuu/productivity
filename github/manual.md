@@ -51,3 +51,15 @@ Enter into interactive mode wit **-p**
 * `git diff branch_name`  --> same as `git diff branch_name working_directory`
 
 ### Commit
+
+* git commit
+
+* git commit --amend -->use the same parent point of current commit to 
+commit, old commit will be canceled
+
+### Checkout
+
+* git checkout HEAD~ test.c	# copy commit point(current commit 
+point's parent point) file to working directory and stage
+
+* git checkout e

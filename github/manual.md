@@ -63,3 +63,37 @@ commit, old commit will be canceled
 point's parent point) file to working directory and stage
 
 * git checkout e
+
+### Checkout
+
+* git tag -l
+
+show remote tags
+
+* git show
+
+chenges in hirtory
+
+* git checkout -b new_branch_name remote_branch_name(tag name)
+
+* git reset --hard HEAD~3	# change current branch to HEAD~3(working directory included)
+
+### Manipulate Branches
+
+* git branch  --> List all branches
+
+* git branch <branch>  --> Create new branch, reference the same point in history
+
+* git branch <branch> <start-point>  --> Create new branch, reference start-point, which may be banch name or tag name
+
+* git branch -d <branch>  --> delete branch, if not reachable from current branch, fail.
+
+* git branch -D <branch> --> force delete branch, if branch points to a commit reachable from other branch or tag
+
+* git checkout <branch>  --> use current branch(branch) to update working directory
+
+* git checkout -b <new> <start-point>  --> create new branch <new> referencing <start-point> and check it out
+
+cat .git/HEAD	--> tell which branch is current
+
+
